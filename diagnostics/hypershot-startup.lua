@@ -6,13 +6,18 @@ if type(env.SchoolHubHypershotStartupProbe)=="table"and env.SchoolHubHypershotSt
     warn("School Hub: startup check is already running.");return
 end
 local file="school_hub_hypershot_startup_probe.json"
-local report={format=1,build="hypershot-startup-probe-20261107-v1",running=true,completed=false,stage="initial",calls={},capabilities={}}
+local report={format=1,build="hypershot-startup-probe-20261107-v2",running=true,completed=false,stage="initial",calls={},capabilities={}}
 env.SchoolHubHypershotStartupProbe=report
 local http=game:GetService("HttpService")
 local write=env.writefile or writefile
 local function clean(value)return tostring(value):gsub("[%c]"," "):sub(1,160)end
+local output=print
+local function console(message)
+    if type(output)=="function"then pcall(output,"[School Hub Probe] "..message)end
+end
 local function save(stage)
     report.stage=stage
+    console("STAGE="..stage)
     if type(write)=="function"then
         local ok,body=pcall(http.JSONEncode,http,report)
         if ok and type(body)=="string"and #body<=30000 then
@@ -28,6 +33,7 @@ local function call(name,fn,...)
     save("before:"..name)
     local ok,value=pcall(fn,...)
     report.calls[#report.calls+1]={name=name,ok=ok,resultType=type(value),error=not ok and clean(value)or nil}
+    console("CALL="..name.." RESULT="..(ok and "OK ("..type(value)..")"or "ERROR: "..clean(value)))
     save("after:"..name)
     return ok,value
 end
@@ -48,7 +54,10 @@ local function run()
     local loadedModules=cap("getloadedmodules")
     if not loadedModules then report.missing="getloadedmodules";return end
     local ok,list=call("getloadedmodules",loadedModules)
-    if not ok or type(list)~="table"then return end
+    if not ok or type(list)~="table"then
+        if ok then report.inventoryError="getloadedmodules returned "..type(list)..", expected table"end
+        return
+    end
     local loaded,count={},0
     for _,module in pairs(list)do count=count+1;if count>50000 then report.inventoryTruncated=true;break end;loaded[module]=true end
     report.loadedModuleCount=count
@@ -86,6 +95,30 @@ local ok,why=pcall(run)
 if not ok then report.error=clean(why)end
 report.running=false;report.completed=true;report.success=ok
 save("done")
-print("School Hub startup check: Done. Send "..file)
-if type(write)~="function"then print(http:JSONEncode(report))end
+local status="COMPLETED"
+if report.unsupportedPlace then status="UNSUPPORTED_PLACE"
+elseif report.missing then status="MISSING_API: "..report.missing
+elseif report.error or report.inventoryError then status="ERROR"end
+for _,entry in ipairs(report.calls)do if not entry.ok and status=="COMPLETED"then status="CALL_ERROR"end end
+local found,cached,required=0,0,0
+local absent,uncached={},{}
+for name,module in pairs(report.modules or {})do
+    if module.found then found=found+1 else absent[#absent+1]=name end
+    if module.cached then cached=cached+1 elseif module.found then uncached[#uncached+1]=name end
+    if module.ok then required=required+1 end
+end
+table.sort(absent);table.sort(uncached)
+console("===== RESULT BEGIN =====")
+console("BUILD="..report.build)
+console("EXECUTOR="..(report.executor or "unknown"))
+console("STATUS="..status)
+local last=report.calls[#report.calls]
+console("LAST_CALL="..(last and last.name or "none").." OK="..(last and tostring(last.ok)or "n/a"))
+console("INVENTORY="..tostring(report.loadedModuleCount or 0).." FOUND="..found.." CACHED="..cached.." REQUIRE_OK="..required)
+if report.error then console("ERROR="..report.error)end
+if report.inventoryError then console("ERROR="..report.inventoryError)end
+for _,entry in ipairs(report.calls)do if not entry.ok then console("FAILED_CALL="..entry.name.." ERROR="..(entry.error or "unknown"))end end
+if #absent>0 then console("NOT_FOUND="..table.concat(absent,","))end
+if #uncached>0 then console("NOT_CACHED="..table.concat(uncached,","))end
+console("===== RESULT END =====")
 return report
