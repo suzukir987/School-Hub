@@ -1,1 +1,1 @@
-return loadstring(game:HttpGet("https://raw.githubusercontent.com/suzukir987/School-Hub/main/bootstrap.lua?v=71e35179ffde"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/suzukir987/School-Hub/main/bootstrap.lua"))()
