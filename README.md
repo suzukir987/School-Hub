@@ -1,6 +1,6 @@
 # School Hub
 
-School Hub supports 36 games, including +1 Sukuna Evolution, with one shared Auth, Loading and Hub design. Appearance and language preferences carry across games; gameplay settings stay specific to each game.
+School Hub supports 37 games, including Ant Evolution and +1 Sukuna Evolution, with one shared Auth, Loading and Hub design. Appearance and language preferences carry across games; gameplay settings stay specific to each game.
 
 Run the hub using the existing command:
 
