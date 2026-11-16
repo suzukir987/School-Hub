@@ -1,5 +1,5 @@
 -- School Hub: exact approved bootstrap, one native scheduler handoff.
-local source = game:HttpGet("https://raw.githubusercontent.com/suzukir987/School-Hub/537a59109843c7785c627268364ca6852c9d809d/bootstrap.lua")
+local source = game:HttpGet("https://raw.githubusercontent.com/suzukir987/School-Hub/368114ec4c722b794fdaf572ba42499fdbda6898/bootstrap.lua")
 local start, reason = loadstring(source)
 assert(type(start) == "function", reason or "School Hub bootstrap could not be compiled.")
 task.defer(start)
