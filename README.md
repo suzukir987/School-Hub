@@ -1,6 +1,6 @@
 # School Hub
 
-School Hub supports 40 games, including Harpoon a Fish, Net a Fish, Voxel Wars, Ant Evolution and +1 Sukuna Evolution, with one shared Auth, Loading and Hub design. Appearance and language preferences carry across games; gameplay settings stay specific to each game.
+School Hub supports 41 games, including Run a Christmas Tree Lot, Harpoon a Fish, Net a Fish, Voxel Wars, Ant Evolution and +1 Sukuna Evolution, with one shared Auth, Loading and Hub design. Appearance and language preferences carry across games; gameplay settings stay specific to each game.
 
 Power Lifters 0.4.0 adds Sled Push automation, timed stamina recovery, sprinting and maximum liftable weight selection. It also updates the Bars/Sled icons, keeps the hub visible during the event and removes expired Halloween quest claims. The latest in-game retest is pending.
 
@@ -9,6 +9,8 @@ Net a Fish 0.1.0 adds net fishing controls, showcase cash collection with Telepo
 Harpoon a Fish 0.1.4 adds harpoon aiming and normal fish reeling, automatic Fat training, aquarium feeding, best fish equipment, growth, cash upgrades, earned rewards and loaded-fish ESP. Live stats update with farming off and while paused. The accepted build was tested by the user in Delta on LDPlayer. This release fills localization gaps in the recent seven games, including Harpoon, Net a Fish and Power Lifters Sled controls.
 
 Power Lifters 0.4.1 addresses Energy Drink auto consumption, Sled sprint detection and recovery-circle timing. Local source/protected and startup checks pass; a fresh in-game retest is pending.
+
+Run a Christmas Tree Lot 0.1.0 adds a full lot workflow with teleport movement, stock ordering and placement, checkout, cash upgrades, employees and earned rewards. Full in-game verification is pending.
 
 Run the hub using the existing command:
 
