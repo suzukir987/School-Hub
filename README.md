@@ -8,6 +8,8 @@ Net a Fish 0.1.0 adds net fishing controls, showcase cash collection with Telepo
 
 Harpoon a Fish 0.1.4 adds harpoon aiming and normal fish reeling, automatic Fat training, aquarium feeding, best fish equipment, growth, cash upgrades, earned rewards and loaded-fish ESP. Live stats update with farming off and while paused. The accepted build was tested by the user in Delta on LDPlayer. This release fills localization gaps in the recent seven games, including Harpoon, Net a Fish and Power Lifters Sled controls.
 
+Power Lifters 0.4.1 addresses Energy Drink auto consumption, Sled sprint detection and recovery-circle timing. Local source/protected and startup checks pass; a fresh in-game retest is pending.
+
 Run the hub using the existing command:
 
 ```lua
