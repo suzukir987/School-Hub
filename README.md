@@ -12,6 +12,8 @@ Power Lifters 0.4.1 addresses Energy Drink auto consumption, Sled sprint detecti
 
 Run a Christmas Tree Lot 0.1.0 adds a full lot workflow with teleport movement, stock ordering and placement, checkout, cash upgrades, employees and earned rewards. Full in-game verification is pending.
 
+Power Lifters 0.4.2 reduces delayed Sled control activation with early preparation, faster source-validated discovery and a fresh scan on race entry. Native timing and movement guards are retained; a new in-game retest is pending.
+
 Run the hub using the existing command:
 
 ```lua
