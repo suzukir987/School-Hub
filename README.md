@@ -14,6 +14,8 @@ Run a Christmas Tree Lot 0.1.0 adds a full lot workflow with teleport movement, 
 
 Power Lifters 0.4.2 reduces delayed Sled control activation with early preparation, faster source-validated discovery and a fresh scan on race entry. Native timing and movement guards are retained; a new in-game retest is pending.
 
+School Hub 4.49.0 adds Throw a Seed 0.1.1 with training, x2 pop-ups, throws, plant placement, upgrades and Auto Sell. Harpoon a Fish 0.1.7 improves Wave camera/barrel alignment, loaded-spear synchronization and teleport movement. Christmas Tree Lot 0.1.1 recovers stalled data reads while customer service continues. The new Harpoon and Tree Lot fixes still await an in-game retest.
+
 Run the hub using the existing command:
 
 ```lua
