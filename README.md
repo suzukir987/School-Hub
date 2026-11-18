@@ -18,6 +18,8 @@ School Hub 4.49.0 adds Throw a Seed 0.1.1 with training, x2 pop-ups, throws, pla
 
 School Hub 4.50.0 adds Jump for Cases 0.1.4. Full Auto Farm combines training circles and x2 bonuses, Perfect jumps, normal-speed running with carried cases, complete case opening, best animal placement and income collection. Opening and placement also work independently. The main cycle was confirmed in game on Delta in LDPlayer. Weight, speed, base and animal upgrades, rebirth and available reward claims have separate controls.
 
+School Hub 4.50.1 corrects the Jump for Cases game caption in the shared menu.
+
 Run the hub using the existing command:
 
 ```lua
