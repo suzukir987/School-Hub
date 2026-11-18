@@ -1,6 +1,6 @@
 # School Hub
 
-School Hub supports 43 games, including Jump for Cases, Run a Christmas Tree Lot, Harpoon a Fish, Net a Fish, Voxel Wars, Ant Evolution and +1 Sukuna Evolution, with one shared Auth, Loading and Hub design. Appearance and language preferences carry across games; gameplay settings stay specific to each game.
+School Hub supports 44 games, including Blade Ball, Jump for Cases, Run a Christmas Tree Lot, Harpoon a Fish, Net a Fish, Voxel Wars, Ant Evolution and +1 Sukuna Evolution, with one shared Auth, Loading and Hub design. Appearance and language preferences carry across games; gameplay settings stay specific to each game.
 
 Power Lifters 0.4.0 adds Sled Push automation, timed stamina recovery, sprinting and maximum liftable weight selection. It also updates the Bars/Sled icons, keeps the hub visible during the event and removes expired Halloween quest claims. The latest in-game retest is pending.
 
@@ -20,6 +20,8 @@ School Hub 4.50.0 adds Jump for Cases 0.1.4. Full Auto Farm combines training ci
 
 School Hub 4.50.1 corrects the Jump for Cases game caption in the shared menu.
 
+School Hub 4.51.0 adds Blade Ball 0.2.0 with 100 switches across 10 sections: Auto Parry, spam and ability controls, curves and targeting, ball and player visuals, movement, cosmetics, world settings and retained reward/vote helpers. Auto Parry was confirmed in the accepted Delta/LDPlayer test without a kick; the report recorded 28 successful parries. Additional features and executor compatibility remain subject to individual in-game checks. Gameplay activities start disabled. Imported feature descriptions may use English fallback.
+
 Run the hub using the existing command:
 
 ```lua
@@ -33,3 +35,5 @@ The launcher checks your key through [scriptrblx.com](https://scriptrblx.com/key
 Based on Prometheus by Elias Oelschner, https://github.com/prometheus-lua/Prometheus
 
 Prometheus Vmify protects the protocol client. UI and gameplay callbacks use native Lua code with separate obfuscation. See [School Hub credits](https://scriptrblx.com/about).
+
+Blade Ball gameplay is adapted from Tokyo X / Rise v2.1.9 ([pinned source](https://github.com/hyuxalt/tokyoX/blob/3a9b8feb90dc2f2841ac385a1c2829b8d5bece0d/Loader.lua), original reference [joshhhie/rise](https://github.com/joshhhie/rise)). The reviewed gameplay core is bundled with the School Hub interface and lifecycle. The original outer loader and its extra branch are excluded.
