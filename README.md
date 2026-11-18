@@ -1,6 +1,6 @@
 # School Hub
 
-School Hub supports 41 games, including Run a Christmas Tree Lot, Harpoon a Fish, Net a Fish, Voxel Wars, Ant Evolution and +1 Sukuna Evolution, with one shared Auth, Loading and Hub design. Appearance and language preferences carry across games; gameplay settings stay specific to each game.
+School Hub supports 43 games, including Jump for Cases, Run a Christmas Tree Lot, Harpoon a Fish, Net a Fish, Voxel Wars, Ant Evolution and +1 Sukuna Evolution, with one shared Auth, Loading and Hub design. Appearance and language preferences carry across games; gameplay settings stay specific to each game.
 
 Power Lifters 0.4.0 adds Sled Push automation, timed stamina recovery, sprinting and maximum liftable weight selection. It also updates the Bars/Sled icons, keeps the hub visible during the event and removes expired Halloween quest claims. The latest in-game retest is pending.
 
@@ -15,6 +15,8 @@ Run a Christmas Tree Lot 0.1.0 adds a full lot workflow with teleport movement, 
 Power Lifters 0.4.2 reduces delayed Sled control activation with early preparation, faster source-validated discovery and a fresh scan on race entry. Native timing and movement guards are retained; a new in-game retest is pending.
 
 School Hub 4.49.0 adds Throw a Seed 0.1.1 with training, x2 pop-ups, throws, plant placement, upgrades and Auto Sell. Harpoon a Fish 0.1.7 improves Wave camera/barrel alignment, loaded-spear synchronization and teleport movement. Christmas Tree Lot 0.1.1 recovers stalled data reads while customer service continues. The new Harpoon and Tree Lot fixes still await an in-game retest.
+
+School Hub 4.50.0 adds Jump for Cases 0.1.4. Full Auto Farm combines training circles and x2 bonuses, Perfect jumps, normal-speed running with carried cases, complete case opening, best animal placement and income collection. Opening and placement also work independently. The main cycle was confirmed in game on Delta in LDPlayer. Weight, speed, base and animal upgrades, rebirth and available reward claims have separate controls.
 
 Run the hub using the existing command:
 
