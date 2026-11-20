@@ -22,6 +22,8 @@ School Hub 4.50.1 corrects the Jump for Cases game caption in the shared menu.
 
 School Hub 4.51.0 adds Blade Ball 0.2.0 with 100 switches across 10 sections: Auto Parry, spam and ability controls, curves and targeting, ball and player visuals, movement, cosmetics, world settings and retained reward/vote helpers. Auto Parry was confirmed in the accepted Delta/LDPlayer test without a kick; the report recorded 28 successful parries. Additional features and executor compatibility remain subject to individual in-game checks. Gameplay activities start disabled. Imported feature descriptions may use English fallback.
 
+School Hub 4.51.1 adds all 26 current Sniper Arena places, including Arcade, ranked, mobile and trading rooms.
+
 Run the hub using the existing command:
 
 ```lua
