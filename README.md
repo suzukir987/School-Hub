@@ -1,6 +1,6 @@
 # School Hub
 
-School Hub supports 45 games, including Flat the Mountain, Blade Ball, Jump for Cases, Run a Christmas Tree Lot, Harpoon a Fish, Net a Fish, Voxel Wars, Ant Evolution and +1 Sukuna Evolution, with one shared Auth, Loading and Hub design. Appearance and language preferences carry across games; gameplay settings stay specific to each game.
+School Hub supports 46 games, including CRAZY 8 Ball, Flat the Mountain, Blade Ball, Jump for Cases, Run a Christmas Tree Lot, Harpoon a Fish, Net a Fish, Voxel Wars, Ant Evolution and +1 Sukuna Evolution, with one shared Auth, Loading and Hub design. Appearance and language preferences carry across games; gameplay settings stay specific to each game.
 
 Power Lifters 0.4.0 adds Sled Push automation, timed stamina recovery, sprinting and maximum liftable weight selection. It also updates the Bars/Sled icons, keeps the hub visible during the event and removes expired Halloween quest claims. The latest in-game retest is pending.
 
@@ -27,6 +27,10 @@ School Hub 4.51.1 adds all 26 current Sniper Arena places, including Arcade, ran
 School Hub 4.52.0 adds Flat the Mountain 0.1.5 for Wave, with separate Lobby and Game menus. Full Auto Farm combines mining, owned-tool selection, vacuum collection and safe teleports. Purchases, upgrades and special tools have independent controls and currency limits. Lobby controls cover rooms, hosting, queueing, saved runs and teleport destinations. The latest Wave test was approved by the user; exhaustive feature and device coverage is not claimed.
 
 This release also reviews ten-language presentation in Flat the Mountain, Jump for Cases, Blade Ball, Sniper Arena, Throw a Seed, Harpoon a Fish and Run a Christmas Tree Lot. Missing feature, help, dropdown and navigation text is filled, German Jump terminology is corrected, and Throw a Seed plant wording is corrected. Existing game algorithms and the accepted shared design are retained.
+
+School Hub 4.53.0 adds CRAZY 8 Ball 0.1.0, with routes for both 8 Ball and 9 Ball. It includes trajectory prediction, configurable Auto Play and one-shot planning, ball/table overlays, a match HUD and manual table actions. All 21 gameplay switches and six scalar settings from the reviewed KingHub source are retained in the shared School Hub interface. Five billiards-specific navigation SVGs have single-line labels, and the new controls, help and status text are translated into ten languages. Existing 45 game factories and the accepted design baseline are preserved. Local source/protected startup checks cover both places; the observed Wave test confirms native module discovery and a calculated shot plan, without claiming exhaustive gameplay or device coverage.
+
+CRAZY 8 Ball gameplay attribution: **KINGHUB | CRAZY 8 BALL**, from [David566734's public source](https://gist.github.com/David566734/f57e7529de918c262a94ed814d51242e). The transferred build retains the original attribution and 23 algorithm function bodies; School Hub supplies the common interface, lifecycle and scoped native bindings.
 
 Run the hub using the existing command:
 
