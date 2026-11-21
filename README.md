@@ -32,6 +32,8 @@ School Hub 4.53.0 adds CRAZY 8 Ball 0.1.0, with routes for both 8 Ball and 9 Bal
 
 CRAZY 8 Ball gameplay attribution: **KINGHUB | CRAZY 8 BALL**, from [David566734's public source](https://gist.github.com/David566734/f57e7529de918c262a94ed814d51242e). The transferred build retains the original attribution and 23 algorithm function bodies; School Hub supplies the common interface, lifecycle and scoped native bindings.
 
+School Hub 4.53.1 updates GloryBound to 0.1.7. Archer attacks use the original native bow draw/release flow, weapon IDs and native cooldowns. Match helpers add break/boss-scene skipping, confirmed result return and the normal public loader after same-universe travel. Auto farm includes offered boon selection, skip and return without changing standalone switches. A separate PvP page offers independent aim, attack, equipped-skill, checked dodge/follow and hostile-player ESP controls. Navigation stays on one line and the GloryBound interface is translated into ten languages, including corrected older captions. Other 45 game factories, all 118 routes and the accepted shared design remain unchanged. Local source/protected and signed-delivery checks pass in lobby and arena contexts; live Archer and PvP gameplay acceptance is still pending.
+
 Run the hub using the existing command:
 
 ```lua
