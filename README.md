@@ -42,6 +42,8 @@ School Hub 4.56.0 adds Summon a Pet Army 0.1.0. Full Auto Farm combines wild-pet
 
 School Hub 4.56.1 fixes movement to Legendary houses in Scare Your Favorite Streamer 0.1.2: road waypoints use road elevation, interrupted movement can resume, and loaded door prompts guide the approach. BlockSpin 0.2.3 releases the old camera-drag mouse lock when the menu is hidden and RMB is released, while retaining normal first-person controls. The shared interface, translations and other 47 game factories are preserved.
 
+School Hub 4.56.2 fixes the Scare Your Favorite Streamer 0.1.5 farm cycle: packages can be placed when ordinary item slots are full, surplus inventory no longer interrupts outbound farming, staircase approaches use continuous native movement, and carried packages fly directly to their own base. The shared interface, translations and other 48 game factories are preserved.
+
 Run the hub using the existing command:
 
 ```lua
