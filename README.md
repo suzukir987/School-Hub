@@ -40,6 +40,8 @@ School Hub 4.55.0 adds BlockSpin 0.2.2 across six places. Full Auto Farm combine
 
 School Hub 4.56.0 adds Summon a Pet Army 0.1.0. Full Auto Farm combines wild-pet combat, soul collection, best-army equipment, camp soul placement and opening, drum training and home income. Separate boss and Harvest farm modes, coin upgrades, free daily and camp rewards, and a Golden Kernel event shop have their own controls. Purchases have separate switches, reserves and session limits. Eleven standard sections include semantic SVG icons, single-line navigation and ten languages. The other 48 game factories and their routes are preserved.
 
+School Hub 4.56.1 fixes movement to Legendary houses in Scare Your Favorite Streamer 0.1.2: road waypoints use road elevation, interrupted movement can resume, and loaded door prompts guide the approach. BlockSpin 0.2.3 releases the old camera-drag mouse lock when the menu is hidden and RMB is released, while retaining normal first-person controls. The shared interface, translations and other 47 game factories are preserved.
+
 Run the hub using the existing command:
 
 ```lua
