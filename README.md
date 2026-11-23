@@ -46,6 +46,8 @@ School Hub 4.56.2 fixes the Scare Your Favorite Streamer 0.1.5 farm cycle: packa
 
 School Hub 4.57.0 adds Volley Bomb 0.1.7 across all seven places. Full Auto Play combines jump and spike priority, bumps, your serve, distant-ball dives, positioning, equipped abilities and ready quest rewards. The individual switches retain their own values. Native touch limits, paired input release and round changes are respected. Six standard sections include trajectory and landing visuals, semantic SVG icons, single-line navigation, ten languages, Insert, Pause and Stop. The previous 49 game factories and their routes are preserved.
 
+School Hub 4.57.1 adds an optional Additional Anti-AFK switch in Settings for all 50 games. The existing idle protection stays always on. The new switch starts off, saves its choice across games, and releases its own listener when disabled, paused or stopped. Its title and description are translated into all ten interface languages. All 50 game factories and 133 routes are unchanged.
+
 Run the hub using the existing command:
 
 ```lua
