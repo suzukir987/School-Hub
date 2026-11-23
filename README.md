@@ -1,6 +1,6 @@
 # School Hub
 
-School Hub supports 48 games, including BlockSpin, Scare Your Favorite Streamer, CRAZY 8 Ball, Flat the Mountain, Blade Ball, Jump for Cases, Run a Christmas Tree Lot, Harpoon a Fish, Net a Fish, Voxel Wars, Ant Evolution and +1 Sukuna Evolution, with one shared Auth, Loading and Hub design. Appearance and language preferences carry across games; gameplay settings stay specific to each game.
+School Hub supports 49 games, including Summon a Pet Army, BlockSpin, Scare Your Favorite Streamer, CRAZY 8 Ball, Flat the Mountain, Blade Ball, Jump for Cases, Run a Christmas Tree Lot, Harpoon a Fish, Net a Fish, Voxel Wars, Ant Evolution and +1 Sukuna Evolution, with one shared Auth, Loading and Hub design. Appearance and language preferences carry across games; gameplay settings stay specific to each game.
 
 Power Lifters 0.4.0 adds Sled Push automation, timed stamina recovery, sprinting and maximum liftable weight selection. It also updates the Bars/Sled icons, keeps the hub visible during the event and removes expired Halloween quest claims. The latest in-game retest is pending.
 
@@ -37,6 +37,8 @@ School Hub 4.53.1 updates GloryBound to 0.1.7. Archer attacks use the original n
 School Hub 4.54.0 adds Scare Your Favorite Streamer 0.1.1. Full Auto Farm combines training for suitable houses, scaring streamers, package pickup and delivery, placement, ready-package opening and best-item selection. Separate controls cover speed/scare training, cash purchases, treadmill/trainer/fan/base upgrades, auras, costumes and free rewards, with spending limits. Movement teleports on your own base and uses tween at the current character walking speed in the arena. The eight-page interface has game-specific SVG icons and single-line navigation captions, with settings and status text reviewed in ten languages. The user approved the Wave main-cycle test; the matching report recorded completed deliveries and confirmed purchases. Other 46 factories, their routes and the accepted shared design are preserved.
 
 School Hub 4.55.0 adds BlockSpin 0.2.2 across six places. Full Auto Farm combines job cycles for gas station stocking, cleaning, steakhouse work and ATMs, with separate job and bank controls. Combat includes silent aim, camera aim, melee settings and independent weapon modifiers. Player, inventory, ESP, target, vehicle and session tools have separate controls. The standard eleven-page interface keeps related settings together, with semantic SVG icons, single-line navigation and ten languages. Other 47 game factories and their routes are preserved.
+
+School Hub 4.56.0 adds Summon a Pet Army 0.1.0. Full Auto Farm combines wild-pet combat, soul collection, best-army equipment, camp soul placement and opening, drum training and home income. Separate boss and Harvest farm modes, coin upgrades, free daily and camp rewards, and a Golden Kernel event shop have their own controls. Purchases have separate switches, reserves and session limits. Eleven standard sections include semantic SVG icons, single-line navigation and ten languages. The other 48 game factories and their routes are preserved.
 
 Run the hub using the existing command:
 
