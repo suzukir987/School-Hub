@@ -1,6 +1,6 @@
 # School Hub
 
-School Hub supports 49 games, including Summon a Pet Army, BlockSpin, Scare Your Favorite Streamer, CRAZY 8 Ball, Flat the Mountain, Blade Ball, Jump for Cases, Run a Christmas Tree Lot, Harpoon a Fish, Net a Fish, Voxel Wars, Ant Evolution and +1 Sukuna Evolution, with one shared Auth, Loading and Hub design. Appearance and language preferences carry across games; gameplay settings stay specific to each game.
+School Hub supports 50 games, including Volley Bomb, Summon a Pet Army, BlockSpin, Scare Your Favorite Streamer, CRAZY 8 Ball, Flat the Mountain, Blade Ball, Jump for Cases, Run a Christmas Tree Lot, Harpoon a Fish, Net a Fish, Voxel Wars, Ant Evolution and +1 Sukuna Evolution, with one shared Auth, Loading and Hub design. Appearance and language preferences carry across games; gameplay settings stay specific to each game.
 
 Power Lifters 0.4.0 adds Sled Push automation, timed stamina recovery, sprinting and maximum liftable weight selection. It also updates the Bars/Sled icons, keeps the hub visible during the event and removes expired Halloween quest claims. The latest in-game retest is pending.
 
@@ -43,6 +43,8 @@ School Hub 4.56.0 adds Summon a Pet Army 0.1.0. Full Auto Farm combines wild-pet
 School Hub 4.56.1 fixes movement to Legendary houses in Scare Your Favorite Streamer 0.1.2: road waypoints use road elevation, interrupted movement can resume, and loaded door prompts guide the approach. BlockSpin 0.2.3 releases the old camera-drag mouse lock when the menu is hidden and RMB is released, while retaining normal first-person controls. The shared interface, translations and other 47 game factories are preserved.
 
 School Hub 4.56.2 fixes the Scare Your Favorite Streamer 0.1.5 farm cycle: packages can be placed when ordinary item slots are full, surplus inventory no longer interrupts outbound farming, staircase approaches use continuous native movement, and carried packages fly directly to their own base. The shared interface, translations and other 48 game factories are preserved.
+
+School Hub 4.57.0 adds Volley Bomb 0.1.7 across all seven places. Full Auto Play combines jump and spike priority, bumps, your serve, distant-ball dives, positioning, equipped abilities and ready quest rewards. The individual switches retain their own values. Native touch limits, paired input release and round changes are respected. Six standard sections include trajectory and landing visuals, semantic SVG icons, single-line navigation, ten languages, Insert, Pause and Stop. The previous 49 game factories and their routes are preserved.
 
 Run the hub using the existing command:
 
