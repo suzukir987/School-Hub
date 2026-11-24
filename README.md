@@ -53,6 +53,8 @@ School Hub 4.58.1 sets Volley Bomb v0.1.8 movement to Tween by default. All othe
 
 School Hub 4.59.0 adds 99 Nights in the Forest v0.1.3 with nineteen sections, Kaitun automation, responsive action feedback and ten interface languages. Solo start cleans up the menu before travel; automatic loading is a separate option. All previous 51 game modules, including the Volley Bomb Tween default, are preserved.
 
+School Hub 4.60.0 updates GloryBound to v0.1.8: Push and Rebirth controls, Auto Challenge for Emperor's Eye, a separate Blessings section with spins during training, and lobby Tween movement at the current character walking speed. The other 51 game modules, existing routes and shared interface are preserved.
+
 Run the hub using the existing command:
 
 ```lua
