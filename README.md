@@ -1,6 +1,6 @@
 # School Hub
 
-School Hub supports 50 games, including Volley Bomb, Summon a Pet Army, BlockSpin, Scare Your Favorite Streamer, CRAZY 8 Ball, Flat the Mountain, Blade Ball, Jump for Cases, Run a Christmas Tree Lot, Harpoon a Fish, Net a Fish, Voxel Wars, Ant Evolution and +1 Sukuna Evolution, with one shared Auth, Loading and Hub design. Appearance and language preferences carry across games; gameplay settings stay specific to each game.
+School Hub supports 52 games, including 99 Nights in the Forest, One Tap, Volley Bomb, Summon a Pet Army, BlockSpin, Scare Your Favorite Streamer, CRAZY 8 Ball, Flat the Mountain, Blade Ball, Jump for Cases, Run a Christmas Tree Lot, Harpoon a Fish, Net a Fish, Voxel Wars, Ant Evolution and +1 Sukuna Evolution, with one shared Auth, Loading and Hub design. Appearance and language preferences carry across games; gameplay settings stay specific to each game.
 
 Power Lifters 0.4.0 adds Sled Push automation, timed stamina recovery, sprinting and maximum liftable weight selection. It also updates the Bars/Sled icons, keeps the hub visible during the event and removes expired Halloween quest claims. The latest in-game retest is pending.
 
@@ -28,9 +28,8 @@ School Hub 4.52.0 adds Flat the Mountain 0.1.5 for Wave, with separate Lobby and
 
 This release also reviews ten-language presentation in Flat the Mountain, Jump for Cases, Blade Ball, Sniper Arena, Throw a Seed, Harpoon a Fish and Run a Christmas Tree Lot. Missing feature, help, dropdown and navigation text is filled, German Jump terminology is corrected, and Throw a Seed plant wording is corrected. Existing game algorithms and the accepted shared design are retained.
 
-School Hub 4.53.0 adds CRAZY 8 Ball 0.1.0, with routes for both 8 Ball and 9 Ball. It includes trajectory prediction, configurable Auto Play and one-shot planning, ball/table overlays, a match HUD and manual table actions. All 21 gameplay switches and six scalar settings from the reviewed KingHub source are retained in the shared School Hub interface. Five billiards-specific navigation SVGs have single-line labels, and the new controls, help and status text are translated into ten languages. Existing 45 game factories and the accepted design baseline are preserved. Local source/protected startup checks cover both places; the observed Wave test confirms native module discovery and a calculated shot plan, without claiming exhaustive gameplay or device coverage.
+School Hub 4.53.0 adds CRAZY 8 Ball 0.1.0, with routes for both 8 Ball and 9 Ball. It includes trajectory prediction, configurable Auto Play and one-shot planning, ball/table overlays, a match HUD and manual table actions. All 21 gameplay switches and six scalar settings are included in the shared School Hub interface. Five billiards-specific navigation SVGs have single-line labels, and the new controls, help and status text are translated into ten languages. Existing 45 game factories and the accepted design baseline are preserved. Local source/protected startup checks cover both places; the observed Wave test confirms native module discovery and a calculated shot plan, without claiming exhaustive gameplay or device coverage.
 
-CRAZY 8 Ball gameplay attribution: **KINGHUB | CRAZY 8 BALL**, from [David566734's public source](https://gist.github.com/David566734/f57e7529de918c262a94ed814d51242e). The transferred build retains the original attribution and 23 algorithm function bodies; School Hub supplies the common interface, lifecycle and scoped native bindings.
 
 School Hub 4.53.1 updates GloryBound to 0.1.7. Archer attacks use the original native bow draw/release flow, weapon IDs and native cooldowns. Match helpers add break/boss-scene skipping, confirmed result return and the normal public loader after same-universe travel. Auto farm includes offered boon selection, skip and return without changing standalone switches. A separate PvP page offers independent aim, attack, equipped-skill, checked dodge/follow and hostile-player ESP controls. Navigation stays on one line and the GloryBound interface is translated into ten languages, including corrected older captions. Other 45 game factories, all 118 routes and the accepted shared design remain unchanged. Local source/protected and signed-delivery checks pass in lobby and arena contexts; live Archer and PvP gameplay acceptance is still pending.
 
@@ -51,6 +50,8 @@ School Hub 4.57.1 adds an optional Additional Anti-AFK switch in Settings for al
 School Hub 4.58.0 adds One Tap v0.1.2 with all seven places across the standard and Pro-server universes. It includes independent combat controls, player and bot ESP, weapon tools, match voting and reward claims in the standard ten-language interface. The existing 50 game modules, shared design and both Anti-AFK controls are preserved.
 
 School Hub 4.58.1 sets Volley Bomb v0.1.8 movement to Tween by default. All other Volley Bomb gameplay code, the shared interface, both Anti-AFK controls and the other 50 game modules are preserved.
+
+School Hub 4.59.0 adds 99 Nights in the Forest v0.1.3 with nineteen sections, Kaitun automation, responsive action feedback and ten interface languages. Solo start cleans up the menu before travel; automatic loading is a separate option. All previous 51 game modules, including the Volley Bomb Tween default, are preserved.
 
 Run the hub using the existing command:
 
