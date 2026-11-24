@@ -55,6 +55,8 @@ School Hub 4.59.0 adds 99 Nights in the Forest v0.1.3 with nineteen sections, Ka
 
 School Hub 4.60.0 updates GloryBound to v0.1.8: Push and Rebirth controls, Auto Challenge for Emperor's Eye, a separate Blessings section with spins during training, and lobby Tween movement at the current character walking speed. The other 51 game modules, existing routes and shared interface are preserved.
 
+School Hub 4.61.0 updates +1 Gun Forge to v0.1.4 with World 4 support, updated stage configuration lookup and the standard public loader for optional continuation after world transfers. All four worlds and the Trading Hub are routed. The other 51 game modules and shared interface are preserved.
+
 Run the hub using the existing command:
 
 ```lua
