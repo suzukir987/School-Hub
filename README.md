@@ -50,6 +50,8 @@ School Hub 4.57.1 adds an optional Additional Anti-AFK switch in Settings for al
 
 School Hub 4.58.0 adds One Tap v0.1.2 with all seven places across the standard and Pro-server universes. It includes independent combat controls, player and bot ESP, weapon tools, match voting and reward claims in the standard ten-language interface. The existing 50 game modules, shared design and both Anti-AFK controls are preserved.
 
+School Hub 4.58.1 sets Volley Bomb v0.1.8 movement to Tween by default. All other Volley Bomb gameplay code, the shared interface, both Anti-AFK controls and the other 50 game modules are preserved.
+
 Run the hub using the existing command:
 
 ```lua
