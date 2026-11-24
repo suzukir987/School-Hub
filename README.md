@@ -57,6 +57,8 @@ School Hub 4.60.0 updates GloryBound to v0.1.8: Push and Rebirth controls, Auto 
 
 School Hub 4.61.0 updates +1 Gun Forge to v0.1.4 with World 4 support, updated stage configuration lookup and the standard public loader for optional continuation after world transfers. All four worlds and the Trading Hub are routed. The other 51 game modules and shared interface are preserved.
 
+School Hub 4.62.0 adds Grapple Sniper Arena v0.1.0, with sniper aim controls, ESP, grappling and melee helpers, native weapon settings and free ready rewards. Both official places are supported. Eleven standard sections, ten interface languages and protected School Hub fonts and animations are included. The other 52 game modules remain unchanged.
+
 Run the hub using the existing command:
 
 ```lua
