@@ -48,6 +48,8 @@ School Hub 4.57.0 adds Volley Bomb 0.1.7 across all seven places. Full Auto Play
 
 School Hub 4.57.1 adds an optional Additional Anti-AFK switch in Settings for all 50 games. The existing idle protection stays always on. The new switch starts off, saves its choice across games, and releases its own listener when disabled, paused or stopped. Its title and description are translated into all ten interface languages. All 50 game factories and 133 routes are unchanged.
 
+School Hub 4.58.0 adds One Tap v0.1.2 with all seven places across the standard and Pro-server universes. It includes independent combat controls, player and bot ESP, weapon tools, match voting and reward claims in the standard ten-language interface. The existing 50 game modules, shared design and both Anti-AFK controls are preserved.
+
 Run the hub using the existing command:
 
 ```lua
