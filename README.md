@@ -65,6 +65,8 @@ School Hub 4.63.0 adds Fish for Secret Animals v0.1.0 with normal and Secret Cas
 
 School Hub 4.64.0 adds Huss Valley v0.1.2 with automatic runner and catcher play, dash and ability timing, catcher ESP, map voting and session controls. Auto Play enables dash and abilities together, with individual switches available. Seven standard sections and ten languages are included. The other 54 game modules, including Fish for Secret Animals and the Throw Food startup fix, are preserved.
 
+School Hub 4.65.0 adds Bee Swarm Simulator v0.1.0: field farming, digging, sprinklers, balloons, bubbles, Crab and Snail controls, items, world counters, graphics options and travel. Eight sections, ten interface languages, saved preferences and reliable Insert menu toggling. The other 55 game modules and existing startup fixes are preserved.
+
 Run the hub using the existing command:
 
 ```lua
