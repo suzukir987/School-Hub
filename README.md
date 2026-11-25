@@ -63,6 +63,8 @@ School Hub 4.62.1 updates Throw Food for Animals to v0.1.5, fixing a startup cra
 
 School Hub 4.63.0 adds Fish for Secret Animals v0.1.0 with normal and Secret Cast fishing, training, best animal placement, separate surplus sales, equipment upgrades and rewards. The interface supports ten languages. The other 53 game modules and the existing Throw Food startup fix are preserved.
 
+School Hub 4.64.0 adds Huss Valley v0.1.2 with automatic runner and catcher play, dash and ability timing, catcher ESP, map voting and session controls. Auto Play enables dash and abilities together, with individual switches available. Seven standard sections and ten languages are included. The other 54 game modules, including Fish for Secret Animals and the Throw Food startup fix, are preserved.
+
 Run the hub using the existing command:
 
 ```lua
