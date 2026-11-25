@@ -61,6 +61,8 @@ School Hub 4.62.0 adds Grapple Sniper Arena v0.1.0, with sniper aim controls, ES
 
 School Hub 4.62.1 updates Throw Food for Animals to v0.1.5, fixing a startup crash during module loading. The game initializes in smaller components while retaining its functions, saved preferences, standard interface and translations. The other 52 game modules are preserved.
 
+School Hub 4.63.0 adds Fish for Secret Animals v0.1.0 with normal and Secret Cast fishing, training, best animal placement, separate surplus sales, equipment upgrades and rewards. The interface supports ten languages. The other 53 game modules and the existing Throw Food startup fix are preserved.
+
 Run the hub using the existing command:
 
 ```lua
