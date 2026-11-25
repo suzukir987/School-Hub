@@ -59,6 +59,8 @@ School Hub 4.61.0 updates +1 Gun Forge to v0.1.4 with World 4 support, updated s
 
 School Hub 4.62.0 adds Grapple Sniper Arena v0.1.0, with sniper aim controls, ESP, grappling and melee helpers, native weapon settings and free ready rewards. Both official places are supported. Eleven standard sections, ten interface languages and protected School Hub fonts and animations are included. The other 52 game modules remain unchanged.
 
+School Hub 4.62.1 updates Throw Food for Animals to v0.1.5, fixing a startup crash during module loading. The game initializes in smaller components while retaining its functions, saved preferences, standard interface and translations. The other 52 game modules are preserved.
+
 Run the hub using the existing command:
 
 ```lua
