@@ -67,6 +67,8 @@ School Hub 4.64.0 adds Huss Valley v0.1.2 with automatic runner and catcher play
 
 School Hub 4.65.0 adds Bee Swarm Simulator v0.1.0: field farming, digging, sprinklers, balloons, bubbles, Crab and Snail controls, items, world counters, graphics options and travel. Eight sections, ten interface languages, saved preferences and reliable Insert menu toggling. The other 55 game modules and existing startup fixes are preserved.
 
+School Hub 4.65.1 updates Throw a Seed to v0.1.2: fixes Waiting caused by hidden game menus, timing of training x2 pop-ups and storing new plants after an automatic throw so the farming cycle can continue. Training bonuses remain an independent switch. Other game modules and the standard interface are preserved.
+
 Run the hub using the existing command:
 
 ```lua
