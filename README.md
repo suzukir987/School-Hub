@@ -73,6 +73,8 @@ School Hub 4.66.0 adds Drill to Earth's Core, including its main game and lobby.
 
 School Hub 4.66.1 updates +1 Gun Forge to 0.1.5 and Run a Christmas Tree Lot to 0.1.2. Gun Forge improves Exotic ore handling, full-backpack returns and confirmed selling, and adds a specific-ore loot filter. Christmas Tree Lot selects the active Starter, Workshop or Market lot and can buy trees from the native recommended order. Ten interface languages are included. All 57 games and 151 routes, including Drill to Earth's Core, remain available.
 
+School Hub 4.66.2 updates Power Lifters to 0.4.3 and CRAZY 8 Ball to 0.1.1. Power Lifters can continue with another available quest when a machine is busy, with bounded ownership waits and full-stamina task transitions. CRAZY 8 Ball scores the native winning team and actual black-ball pocket, and rechecks the current turn and called pocket before shooting. All 57 games and 151 routes, Drill, Gun Forge and Christmas Tree Lot updates are preserved.
+
 Run the hub using the existing command:
 
 ```lua
