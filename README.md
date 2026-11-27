@@ -77,6 +77,8 @@ School Hub 4.66.2 updates Power Lifters to 0.4.3 and CRAZY 8 Ball to 0.1.1. Powe
 
 School Hub 4.67.0 adds Clean The Ballpit v0.1.2. Auto Farm combines ball collection, teleport movement, selling, available area and map progression, automatic tool purchases, equipment and bag, speed, reach and power upgrades. Independent controls, purchase budgets, seven standard sections and ten interface languages are included. All 57 existing games and 151 prior routes are preserved.
 
+School Hub 4.68.0 adds Murder Mystery 2 v0.1.4: coin farming with Tween or teleport movement, gun pickup, shot prediction, role and gun ESP, player controls, map voting and rewards. Includes nine standard sections, ten interface languages and Tween as the default farming movement. All 58 existing games and 152 prior routes are preserved.
+
 Run the hub using the existing command:
 
 ```lua
