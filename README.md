@@ -81,6 +81,8 @@ School Hub 4.68.0 adds Murder Mystery 2 v0.1.4: coin farming with Tween or telep
 
 School Hub 4.68.1 updates +1 Gun Forge to 0.1.6: improved Exotic loot priority, arena-aware combat, full-bag return with standalone Auto Attack, seller approach before acknowledged sales and ten-language seller statuses. All 58 other games and all 156 routes are preserved.
 
+School Hub 4.68.2 improves training teleport approaches in Build the Pyramid and Power Lifters and handles unavailable seasonal events in Kukirin Life and +1 Venom Evolution. All 55 other game factories and all 156 routes are preserved.
+
 Run the hub using the existing command:
 
 ```lua
