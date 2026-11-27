@@ -69,6 +69,8 @@ School Hub 4.65.0 adds Bee Swarm Simulator v0.1.0: field farming, digging, sprin
 
 School Hub 4.65.1 updates Throw a Seed to v0.1.2: fixes Waiting caused by hidden game menus, timing of training x2 pop-ups and storing new plants after an automatic throw so the farming cycle can continue. Training bonuses remain an independent switch. Other game modules and the standard interface are preserved.
 
+School Hub 4.66.0 adds Drill to Earth's Core, including its main game and lobby. Mining, loot, combat, drill management, upgrades, passive rolls, raids, shard collection and travel are organized into 16 standard sections. Every game control has a description, with a ten-language interface and the existing shared appearance settings. Automations start disabled; profiles, Pause, Stop and Insert menu controls use the standard School Hub flow.
+
 Run the hub using the existing command:
 
 ```lua
