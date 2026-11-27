@@ -75,6 +75,8 @@ School Hub 4.66.1 updates +1 Gun Forge to 0.1.5 and Run a Christmas Tree Lot to 
 
 School Hub 4.66.2 updates Power Lifters to 0.4.3 and CRAZY 8 Ball to 0.1.1. Power Lifters can continue with another available quest when a machine is busy, with bounded ownership waits and full-stamina task transitions. CRAZY 8 Ball scores the native winning team and actual black-ball pocket, and rechecks the current turn and called pocket before shooting. All 57 games and 151 routes, Drill, Gun Forge and Christmas Tree Lot updates are preserved.
 
+School Hub 4.67.0 adds Clean The Ballpit v0.1.2. Auto Farm combines ball collection, teleport movement, selling, available area and map progression, automatic tool purchases, equipment and bag, speed, reach and power upgrades. Independent controls, purchase budgets, seven standard sections and ten interface languages are included. All 57 existing games and 151 prior routes are preserved.
+
 Run the hub using the existing command:
 
 ```lua
