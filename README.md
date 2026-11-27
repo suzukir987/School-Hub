@@ -71,6 +71,8 @@ School Hub 4.65.1 updates Throw a Seed to v0.1.2: fixes Waiting caused by hidden
 
 School Hub 4.66.0 adds Drill to Earth's Core, including its main game and lobby. Mining, loot, combat, drill management, upgrades, passive rolls, raids, shard collection and travel are organized into 16 standard sections. Every game control has a description, with a ten-language interface and the existing shared appearance settings. Automations start disabled; profiles, Pause, Stop and Insert menu controls use the standard School Hub flow.
 
+School Hub 4.66.1 updates +1 Gun Forge to 0.1.5 and Run a Christmas Tree Lot to 0.1.2. Gun Forge improves Exotic ore handling, full-backpack returns and confirmed selling, and adds a specific-ore loot filter. Christmas Tree Lot selects the active Starter, Workshop or Market lot and can buy trees from the native recommended order. Ten interface languages are included. All 57 games and 151 routes, including Drill to Earth's Core, remain available.
+
 Run the hub using the existing command:
 
 ```lua
