@@ -83,6 +83,8 @@ School Hub 4.68.1 updates +1 Gun Forge to 0.1.6: improved Exotic loot priority, 
 
 School Hub 4.68.2 improves training teleport approaches in Build the Pyramid and Power Lifters and handles unavailable seasonal events in Kukirin Life and +1 Venom Evolution. All 55 other game factories and all 156 routes are preserved.
 
+School Hub 4.69.0 adds +1 Jutsu Evolution. Training, stage progression across released worlds, Jutsu and aura equipment, Taijutsu rolls, pets, bosses, rebirths and free rewards are organized into twelve standard sections. Egg hatching uses the original game controls and waits for animation and confirmation before another action. The game cursor, ten languages, shared appearance settings, Insert, Pause and Stop are retained. Activities start disabled.
+
 Run the hub using the existing command:
 
 ```lua
